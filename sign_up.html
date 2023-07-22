@@ -1,0 +1,17 @@
+
+
+
+{%extends 'base.html'%}
+{%block body%}
+
+<form action="" method="post">
+    <h1>Sign up</h1>
+    <input type="email" placeholder="Enter email address" name="email">
+    <br>
+    <input type="password" placeholder="Create password" name="password"> <br>
+    <input type="password" name="password" id="" placeholder="Confirm password"> <br>
+    <input type="submit" name="" id="" value="Sign up"> <br>
+    <a href="{{url_for('login')}}">Login</a>
+</form>
+
+{%endblock%}
